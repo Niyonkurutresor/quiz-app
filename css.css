@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    height: 80vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstpage p,.nextpage{
+    font-weight:bolder;
+    font-size: xx-large;
+  }
+.questionsWithAnswer{
+    display: none;
+}
+.center{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 57, 59);
+    position: relative;
+
+}
+.timer{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.question > p{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+.question ul li{
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+.question ul li input{
+    margin-right: .5rem;
+}
+.question ul li span {
+    font-family: sans-serif;
+
+} 
+
+.nextButton button, button{
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    font-size: larger;
+    text-transform: capitalize;
+    background-color: transparent;
+    box-shadow: 0 0 4px 2px white;
+    border-radius: 5PX;
+    bottom: 5%;
+}
+.next{
+    left: 40%;
+}
+.submit{
+    display: none;
+    position: absolute;
+    right: 3%;
+}
+.final.submit{
+    right: 20%;
+}
+.final.next{
+    left: 20%;
+}
+
+
+.nextpage{
+    display: none;
+}
+.block{
+    display: block;
+}
+input{
+   width: 20px;
+   height: 20px; 
+}
